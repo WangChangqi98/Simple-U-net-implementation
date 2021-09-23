@@ -1,8 +1,9 @@
 # unet-master
+
 Unet network for altrasound image segmentation
-## data preparation
-structure of project
-```
+
+## structure of project
+
   --project
   	main.py
 	unet.py
