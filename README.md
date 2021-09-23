@@ -5,15 +5,15 @@ structure of project
 ```
   --project
   	main.py
-  	 --altrasound
-   		--train
-   		--val
+	unet.py
+	dataset.py
+  	altrasound.zip
 
 all dataset you can access by email：1901684@stu.neu.edu.cn
 
 ## training
 ```
-main.py:
+edit main.py:
 		if __name__ == '__main__':
     		batch_size = 4
     		train(batch_size)
@@ -21,9 +21,10 @@ main.py:
 
 ## testing
 ```
-main.py:
+edit main.py:
 		if __name__ == '__main__':
 			ckpt = "weight path"
 			test(ckpt)
 ```
 
+All details are marked with Chinese!
