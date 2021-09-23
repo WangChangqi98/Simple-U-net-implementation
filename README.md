@@ -11,9 +11,9 @@ Unet network for altrasound image segmentation
   	altrasound.zip
 
 all dataset you can access by email：1901684@stu.neu.edu.cn
-
-*training
-
+'''
+##training
+'''
 edit main.py:
 
 		if __name__ == '__main__':
@@ -22,9 +22,9 @@ edit main.py:
 		
     		train(batch_size)
 
-
-*testing
-
+'''
+##testing
+'''
 edit main.py:
 
 		if __name__ == '__main__':
