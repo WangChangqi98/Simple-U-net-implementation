@@ -5,9 +5,9 @@ structure of project
 ```
   --project
   	main.py
-  	 --altrasound
-   		--train
-   		--val
+	unet.py
+	dataset.py
+  	altrasound.zip
 
 all dataset you can access by email：1901684@stu.neu.edu.cn
 ```
